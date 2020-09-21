@@ -1,0 +1,2 @@
+exports.MAX_LENGTH_TITLE = 48;
+exports.MAX_LENGTH_DESCRIPTION = 500;

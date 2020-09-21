@@ -1,0 +1,24 @@
+{
+  "name": "gitmoji-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/frostney/gitmoji-toolkit.git",
+  "author": "Johannes Stein <johannesstein@freeze-dev.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "commitlint-config-gitmoji": "^1.0.1",
+    "conventional-changelog-atom": "^2.0.7",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier-eslint-cli": "^5.0.0",
+    "semantic-release": "^17.1.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
